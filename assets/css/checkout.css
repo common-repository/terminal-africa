@@ -1,0 +1,219 @@
+.swal2-image {
+  height: 100px;
+}
+
+.swal2-popup.swal2-modal {
+  background: #f6f6f6;
+}
+
+.swal2-confirm.swal2-styled {
+  background-color: rgb(246, 146, 32);
+}
+
+.swal2-cancel.swal2-styled {
+  background-color: rgb(0, 0, 0);
+}
+
+.swal-text {
+  line-height: 23px;
+}
+
+.t-checkout-carriers {
+  border: 1px solid gray;
+  margin-top: 10px;
+}
+
+.t-checkout-single {
+  margin: 0px;
+  padding: 6px;
+  padding-bottom: 0px;
+  padding-top: 2px;
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+}
+
+/* hover */
+.t-checkout-single:hover {
+  background: lightgray;
+  border-bottom: 1px solid white;
+  transition: 0.1s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+.t-checkout-single label {
+  cursor: pointer;
+}
+
+.t-delivery-time {
+  font-size: 13px;
+  color: gray;
+}
+
+.t-restore {
+  text-align: center;
+  cursor: pointer;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.t-restore:hover {
+  background: lightgray;
+  transition: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.t-checkout-carriers.t-update {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.t-carrier-desc {
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.t-checkout-carriers-checkoutWC {
+  display: flex;
+  justify-content: end;
+}
+
+.t-checkout-carriers-reload-checkoutWC {
+  display: flex;
+  justify-content: end;
+}
+
+.t-checkout-carriers-reload-checkoutWC .t-checkout-carriers {
+  width: 100%;
+  max-width: 115px;
+}
+
+.t-checkout-carriers-reload-checkoutWC .t-checkout-carriers .t-restore {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 10px;
+}
+
+.terminalCheckoutWC-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.terminalFluid-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.t-restoreInner,
+.terminal-woo-checkout-get-rate {
+  text-align: center;
+  cursor: pointer;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.t-restoreInner:hover,
+.terminal-woo-checkout-get-rate:hover {
+  background: lightgray;
+  transition: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.terminalFluid-container .t-restoreInner,
+.terminalFluid-container .terminal-woo-checkout-get-rate {
+  text-align: center;
+  cursor: pointer;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding-top: 4px;
+  font-size: 14px;
+}
+
+.terminalFluid-container .t-restoreInner:hover,
+.terminalFluid-container .terminal-woo-checkout-get-rate:hover {
+  background: lightgray;
+  transition: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.terminalCheckoutWC-container-inner .t-restoreInner {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 10px;
+}
+
+.terminalFluid-container-inner .t-restoreInner {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 10px;
+}
+
+.terminalFluid-container-inner h3 {
+  color: var(--fluidcheckout--color--dark-grey, #535156);
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.terminal-woo-checkout-get-rate {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 10px;
+  margin-bottom: 2px;
+}
+
+.terminalCheckoutWC-container-inner img {
+  height: 10px;
+  margin-right: 2px;
+}
+
+.terminalFluid-container-inner img {
+  height: 17px;
+  margin-right: 8px;
+  margin-top: 3px;
+  margin-left: 4px;
+}
+
+.terminal-woo-checkout-get-rate img {
+  height: 18px !important;
+  margin-right: 5px !important;
+}
+
+.terminal-overlay-checkout {
+  width: 100%;
+  height: 100%;
+}
+
+.terminal-overlay-content-checkout {
+  width: 100%;
+  height: 100%;
+}
+
+.woocheckout-city-label {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.terminal-custom-fluid-added {
+  padding: 10px 5px;
+}
+
+.terminal-custom-fluid-country-added {
+  padding: 10px 5px;
+}
+
+.terminal-custom-fluid-added-shipping-city {
+  padding: 10px 5px;
+}
+
+.terminal-woo-checkout-get-rate {
+  display: none;
+}
